@@ -18,8 +18,7 @@ xornd *xorn_root(int value) {
 	return result;
 }
 
-void __attribute__((nonnull)) 
-add_node(xornd *root, int value) {
+void add_node(xornd *root, int value) {
 	xornd *new=xorn_root(value);
 	xornd *prev=NULL;
 

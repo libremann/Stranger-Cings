@@ -1,8 +1,7 @@
 # Game with restrict
 Here, by intentionally violating the `restrict` contract, we were able to make the program produce two different outputs at two different compiler optimization levels.
 
-
-## How to Compile
+## How to Compile :
 
 ```bash
 ➜ gcc -O0 main.c ; ./a.out
