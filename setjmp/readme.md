@@ -1,5 +1,5 @@
 # setjmp
-A simple implementation of setjmp.h for x86_64
+A minimal x86-64 implementation of setjmp/longjmp for Linux/System V AMD64
 
 ## How to Compile :
 
