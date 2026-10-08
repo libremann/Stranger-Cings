@@ -1,3 +1,6 @@
+// We can't move RIP directly. When a function is called,
+// the address of the next instruction is pushed onto the top of the stack.
+
 .section .text
 .global setjmp
 
